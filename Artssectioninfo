@@ -1,0 +1,49 @@
+<div style="
+  margin: 0;
+  padding: 0;
+">
+  <div style="
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+  ">
+
+    <!-- Snippet Preview -->
+    <p style="margin-bottom: 10px; color:#444;">
+    I don’t have an official record of any of my art. I know that I’ve been interested in photography ever since I was a Cub Scout. That was one of the very first things I defined during those years. My interest in art has only taken a very strong effect within the past two years. I have done many different types of art and my second art form that I figured out that I loved was calligraphy. I got pretty good at it for a little while although I had a very shaky hand after a while I started getting bored with calligraphy and moved onto graffiti love the style and colors of graffiti and actually did pretty well on it. My pieces were normally simple, either bubbles or an attempt at wild style. The graffiti trend lasted for quite a while. I would buy books on it. I would buy paint pens on for it. I would buy sketchbook for it. 
+</p>
+
+    <!-- Show More link -->
+    <p id="moreToggle" onclick="toggleMore()" 
+       style="color:#0073e6; cursor:pointer; margin-top:10px;">
+       Show more ▼
+    </p>
+
+    <!-- Hidden extra content -->
+    <div id="moreContent" style="display:none; margin-top:10px;">
+      <p> I prefer not to keep my drawings just because I feel super embarrassed about them, but some of the names that I didn’t use were fox, smoothie, Dave, and eevee. I got pretty good at doing graffiti, but I got bored and then moved on to urban sketching which I never figured out unfortunately. I kept trying and trying, but I could never seem to make anything look like what I was looking at so I put that aside and started learning a bit of color theory ended up loving color theory so much in between my sketching and drawings I would do random crafts. I made a rose at a sheet music that I gave to the drama team of my public school because their play was phenomenal ( and matched with the theme). I’d try my hand at the Japanese art of dorodango which I spent about 16 hours working on in the end product was not too shabby. More recently, I have been working with charcoal to make portraits. Those are the only ones I have not destroyed because they actually look like people. Unlike most starting artist, I don’t go out and buy a bunch of materials at least for charcoal. I would use my inner arsonist to create my own massive amounts of charcoal, crushed it up into dust and make pencils out of it. I have no idea if I’m using the right wood for it or not, but it worked kind of well. Very recently I’ve combined my love of color theory and portrait drawing with get ready for it. Portraits specifically painting portraits. I have not actually attempted painting a portrait just yet, but I’ve been studying it for quite a while now. I’ve decided on a color palette (the Zorn palette) and a sketchbook to fill with portraits. The parts that I’m currently studying are how the head works and the little details within I am very much struggling with getting the lips down and keeping my eyes looking like eyes. That has been my current art journey and has lasted quite a while. 
+ 
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function toggleMore() {
+  const content = document.getElementById("moreContent");
+  const toggle = document.getElementById("moreToggle");
+
+  if (content.style.display === "none") {
+    content.style.display = "block";
+    toggle.textContent = "Show less ▲";
+  } else {
+    content.style.display = "none";
+    toggle.textContent = "Show more ▼";
+  }
+}
+</script>
